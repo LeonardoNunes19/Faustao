@@ -1,6 +1,6 @@
-from tkinter import *
-import tkinter as tk
-from Player import Player
+# from tkinter import *
+# import tkinter as tk
+# from Player import Player
 from Roulette import Roulette
 
 class Cassino:
