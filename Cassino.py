@@ -215,7 +215,7 @@ class Cassino:
     def europeu(self):
         # atualizar o fundo para inserir novos botões
         if self.getNrojogadores() != 0:
-            self.photo = PhotoImage(file="european3.gif")
+            self.photo = PhotoImage(file="images/european3.gif")
             self.blacklabel = Label(root,image=self.photo).place(x=-1,y=-1)
         # carregar budget cassino
             self.__lb4 = tk.Label(root)
@@ -238,7 +238,7 @@ class Cassino:
     def americano(self):
         # atualizar o fundo para inserir novos botões
         if self.getTipoJogo() == "AMERICANO" and self.getNrojogadores() != 0:
-            self.photo = PhotoImage(file="european3.gif")
+            self.photo = PhotoImage(file="images/european3.gif")
             self.blacklabel = Label(root,image=self.photo).place(x=-1,y=-1)
         # carregar budget cassino
             self.__lb4 = tk.Label(root)
@@ -261,7 +261,7 @@ class Cassino:
     def frances(self):
         # atualizar o fundo para inserir novos botões
         if self.getTipoJogo() == "FRANCES" and self.getNrojogadores() != 0:
-            self.photo = PhotoImage(file="european3.gif")
+            self.photo = PhotoImage(file="images/european3.gif")
             self.blacklabel = Label(root,image=self.photo).place(x=-1,y=-1)
         # carregar budget cassino
             self.__lb4 = tk.Label(root)
@@ -379,7 +379,7 @@ class Cassino:
             self.__b5.configure(state="disabled")
 
     def endGame(self):
-        self.photo = PhotoImage(file="black.gif")
+        self.photo = PhotoImage(file="images/black.gif")
         self.blacklabel = Label(root,image=self.photo).place(x=-1,y=-1)
 
         self.__lb9 = tk.Label(root)
