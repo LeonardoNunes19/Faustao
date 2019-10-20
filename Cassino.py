@@ -1,14 +1,14 @@
-# from tkinter import *
-# import tkinter as tk
-# from Player import Player
-# from Roulette import Roulette
+from tkinter import *
+import tkinter as tk
+from Player import Player
+from Roulette import Roulette
 
 class Cassino:
     def __init__(self, master):
         self.__players = []
         self.__budget = 1000
         self.__vez = 0
-        self.__nroPassaVez = 0
+        self.__nroPassaVez = 39
         self.__tipoJogo = str()
         self.__nroSorteado = int()
         self.__nroJogadores = int()
