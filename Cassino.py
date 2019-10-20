@@ -1,7 +1,7 @@
-from tkinter import *
-import tkinter as tk
-from Player import Player
-from Roulette import Roulette
+# from tkinter import *
+# import tkinter as tk
+# from Player import Player
+# from Roulette import Roulette
 
 class Cassino:
     def __init__(self, master):
